@@ -22,3 +22,12 @@ body {
    flex-direction: column;
    position: relative;
 }
+
+.div__titleTasksList {
+   display: flex;
+   flex-direction: row;
+}
+
+.section__titleTasksList {
+   flex-grow: 1;
+}

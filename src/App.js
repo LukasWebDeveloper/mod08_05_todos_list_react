@@ -1,5 +1,6 @@
 import Form from "./Form";
 import Tasks from "./Tasks";
+import Buttons from "./Buttons";
 
 const tasks = [
    { id: 1, content: "przejść na Reacta", done: false, },
@@ -7,7 +8,7 @@ const tasks = [
 ];
 
 const hideDoneTasks = false;
-// Pauza na 25m filmu 08.03
+// Pauza na 30m filmu 08.03
 
 function App() {
    return (
@@ -27,8 +28,7 @@ function App() {
             <div className="div__listTasks">
                <div className="div__titleTasksList">
                   <h3 className="section__titleTasksList">Lista zadań</h3>
-                  <div className="div__headerAndButtons">
-                  </div>
+                  <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks} />
                </div>
                <div className="div__tasksList">
                   <Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />

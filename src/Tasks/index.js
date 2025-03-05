@@ -16,7 +16,7 @@ const Tasks = (props) => (
             {task.content}
          </span>
          <button className="buttonTask buttonTask--remove">
-         Ⅲ
+         <span className="button__markWastebasket">🗑</span>
          </button>
          </li>
       ))}
