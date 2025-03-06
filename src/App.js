@@ -11,7 +11,7 @@ const tasks = [
 ];
 
 const hideDoneTasks = false;
-// Pauza na 33m filmu 08.03
+
 
 function App() {
    return (
