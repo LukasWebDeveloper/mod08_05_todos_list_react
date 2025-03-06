@@ -1,15 +1,10 @@
 /* Tasks list */
-.div__listTasks {
+.section__listTasks {
    background-color: #fff;
    margin-top: 1%;
 }
 
-.div__titleTasksList {
-   padding-left: 2%;
-}
-
 .tasksList {
-   margin: 0 2%;
    padding-left: 0px;
    padding-bottom: 2%;
    list-style: none;

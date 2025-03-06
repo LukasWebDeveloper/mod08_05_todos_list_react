@@ -1,0 +1,53 @@
+.section {
+   background-color: #fff;
+}
+
+.sectionAddTask {
+   margin: 0 4%;
+}
+
+.section__titleNewTask {
+   border-bottom: 2px solid #eee;
+   padding: 2%;
+}
+
+.sectionTasks {
+   top: -15px;
+   margin: 0 4%;
+   margin-top: 1%;
+}   
+
+.section__titleTasksList {
+   flex-grow: 1;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.js-button--toggleHideDoneTasks {
+   margin-right: 2%;
+   direction: none;
+   background-color: #fff;
+   color: teal;
+   border: none;
+}
+
+.js-button--toggleHideDoneTasks:hover {
+   margin-right: 2%;
+   direction: none;
+   background-color: #fff;
+   color: rgb(108, 211, 211);
+   border: none;
+}
+
+.divButtons {
+   display: flex;
+   flex-direction: row;
+   flex-grow: 0.05;
+}
+
+.button__disabledMarkTasksDone {
+   margin-right: 2%;
+   direction: none;
+   background-color: #fff;
+   border: none;
+}

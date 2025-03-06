@@ -1,12 +1,11 @@
 .div__headerAndButtons {
    display: flex;
    flex-direction: row;
-   flex-grow: 0.1;
+   flex-grow: 0.2;
 }
 
 .div__button {
    margin-right: 2%;
-   padding-right: 2%;
    background: transparent;
    border: none;
 }
@@ -43,6 +42,27 @@
    direction: none;
    background-color: none;
    color: rgb(108, 211, 211);
+   border: none;
+   transition: 0.3s linear;
+   transform: scale(1.1);
+}
+
+.div__button--markTasksAllDone:disabled {
+   margin-right: 2%;
+   direction: none;
+   background: transparent;
+   color: rgb(111, 111, 111);
+   border: none;
+   transition: 0.3s linear;
+   transform: scale(1);
+
+}
+
+.div__button--markTasksAllDone:disabled:hover {
+   margin-right: 2%;
+   direction: none;
+   background-color: none;
+   color: rgb(158, 158, 158);
    border: none;
    transition: 0.3s linear;
    transform: scale(1.1);

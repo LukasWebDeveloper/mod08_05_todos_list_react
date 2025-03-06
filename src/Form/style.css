@@ -1,4 +1,4 @@
-.div__addTasks {
+.section__addTasks {
    background-color: #fff;
    padding: 2%;
    padding-top: 0;
@@ -8,6 +8,7 @@
 .form {
    display: flex;
    padding-top: 0;
+   margin-top: 2%;
 }
 
 @media (max-width: 450px) {
