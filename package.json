@@ -2,7 +2,7 @@
   "name": "todo-list-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lukaswebdeveloper.github.io/todos-list-react/",
+  "homepage": "https://lukaswebdeveloper.github.io/mod08_05_todos_list_react/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
