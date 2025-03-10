@@ -29,7 +29,7 @@
    transform: scale(1.1);
 }
 
-.js-div__button--toggleHideDoneTasks {
+.div__button--toggleHideDoneTasks {
    color: teal;
    transition: 0.3s linear;
    transform: scale(1);

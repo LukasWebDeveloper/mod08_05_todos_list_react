@@ -25,7 +25,7 @@
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-.js-button--toggleHideDoneTasks {
+.button--toggleHideDoneTasks {
    margin-right: 2%;
    direction: none;
    background-color: #fff;
@@ -33,7 +33,7 @@
    border: none;
 }
 
-.js-button--toggleHideDoneTasks:hover {
+.button--toggleHideDoneTasks:hover {
    margin-right: 2%;
    direction: none;
    background-color: #fff;
