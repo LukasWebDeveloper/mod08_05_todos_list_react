@@ -1,7 +1,16 @@
 .div__headerAndButtons {
    display: flex;
    flex-direction: row;
-   flex-grow: 0.2;
+   flex-grow: 0.1;   
+   border-bottom: none;
+}
+
+@media (max-width: 450px) {
+   .div__headerAndButtons {
+      display: flex;
+      flex-direction: column;
+      border-bottom: none;
+   }
 }
 
 .div__button {
@@ -27,7 +36,6 @@
 }
 
 .div__button--markTasksAllDone {
-   margin-right: 2%;
    direction: none;
    background: transparent;
    color: teal;
@@ -38,7 +46,6 @@
 }
 
 .div__button--markTasksAllDone:hover {
-   margin-right: 2%;
    direction: none;
    background-color: none;
    color: rgb(108, 211, 211);
@@ -48,7 +55,6 @@
 }
 
 .div__button--markTasksAllDone:disabled {
-   margin-right: 2%;
    direction: none;
    background: transparent;
    color: rgb(111, 111, 111);
@@ -59,7 +65,6 @@
 }
 
 .div__button--markTasksAllDone:disabled:hover {
-   margin-right: 2%;
    direction: none;
    background-color: none;
    color: rgb(158, 158, 158);

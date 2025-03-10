@@ -1,15 +1,16 @@
 import "./style.css";
 
 const Section = ({title, body, extraHeaderContent}) => (
-   <section className="section__listTasks">
+   <section className="section sectionAddTask">
                <div className="div__titleTasksList">
-                  <h3 className="section__titleTasksList">{title}</h3>
+                  <h3 className="section__titleNewTask">{title}</h3>
                   {extraHeaderContent}
                </div>
                <div className="div__tasksList">
                {body}
                </div>
-            </section>
+   </section>
+   
 );
 
 export default Section;

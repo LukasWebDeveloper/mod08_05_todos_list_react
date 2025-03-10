@@ -5,13 +5,13 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
       {tasks.length > 0 && (
          <>
             <button className="div__button js-div__button--toggleHideDoneTasks">
-               <strong>{hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone</strong>
+               {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
             </button>
             <button
                className="div__button--markTasksAllDone"
                disabled={tasks.every(({ done }) => done)}
             >
-               <strong>Ukończ wszystkie</strong>
+               Ukończ wszystkie
             </button>
          </>
       )}

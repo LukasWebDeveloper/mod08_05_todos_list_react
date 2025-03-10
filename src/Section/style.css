@@ -4,11 +4,12 @@
 
 .sectionAddTask {
    margin: 0 4%;
+   margin-bottom: 1%;
+   
 }
 
 .section__titleNewTask {
-   border-bottom: 2px solid #eee;
-   padding: 2%;
+   padding: 0 2%;
 }
 
 .sectionTasks {
@@ -17,7 +18,8 @@
    margin-top: 1%;
 }   
 
-.section__titleTasksList {
+.section__titleNewTask {
+   /* line-height: 0.05; */
    flex-grow: 1;
 }
 
@@ -50,4 +52,18 @@
    direction: none;
    background-color: #fff;
    border: none;
+}
+
+.div__titleTasksList {
+   display: flex;
+   flex-direction: row;
+   padding: 0%;
+}
+
+@media (max-width: 500px) {
+   .div__titleTasksList {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
 }
