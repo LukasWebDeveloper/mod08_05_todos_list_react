@@ -7,8 +7,9 @@
 
 .form {
    display: flex;
+   flex-direction: row;
+   padding: 2%;
    padding-top: 0;
-   margin-top: 2%;
 }
 
 @media (max-width: 450px) {
@@ -42,7 +43,7 @@
    background-color: teal;
    color: rgb(213, 240, 240);
    font-weight: lighter;
-   border: transparent;
+   border: 2px solid teal;
 }
 
 .formButton {

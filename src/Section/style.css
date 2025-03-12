@@ -9,17 +9,17 @@
 }
 
 .section__titleNewTask {
-   padding: 0 2%;
+   border-bottom: 2px solid #eee;
+   padding: 2%;
+   margin-top: 0;
 }
 
 .sectionTasks {
    top: -15px;
    margin: 0 4%;
-   margin-top: 1%;
 }   
 
 .section__titleNewTask {
-   /* line-height: 0.05; */
    flex-grow: 1;
 }
 
@@ -52,18 +52,23 @@
    direction: none;
    background-color: #fff;
    border: none;
+}   
+
+.section__titleTasksList {
+   flex-grow: 1.25;
 }
 
-.div__titleTasksList {
+.div__tasksList {
    display: flex;
    flex-direction: row;
-   padding: 0%;
+   border-bottom: 2px solid #eee;
 }
 
 @media (max-width: 500px) {
-   .div__titleTasksList {
+   .div__tasksList {
       display: flex;
       flex-direction: column;
       align-items: center;
+      border-bottom: 2px solid #eee;
    }
 }

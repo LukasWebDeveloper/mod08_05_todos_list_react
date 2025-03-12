@@ -1,20 +1,25 @@
 .div__headerAndButtons {
    display: flex;
    flex-direction: row;
-   flex-grow: 0.1;   
-   border-bottom: none;
+   justify-content: flex-start;
+   flex-grow: 0.4;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
    .div__headerAndButtons {
       display: flex;
       flex-direction: column;
-      border-bottom: none;
+      justify-content: flex-start;
+      border-bottom: 2px solid #eee;  
+      width: 50%;
+      height: 50%;
+      flex-grow:0.5;
    }
 }
 
 .div__button {
    margin-right: 2%;
+   padding-right: 2%;
    background: transparent;
    border: none;
 }
@@ -36,6 +41,7 @@
 }
 
 .div__button--markTasksAllDone {
+   margin-right: 2%;
    direction: none;
    background: transparent;
    color: teal;
