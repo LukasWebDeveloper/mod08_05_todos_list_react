@@ -21,11 +21,9 @@ function App() {
          />
          <main className="main">
             <Section
-               title="Dodaj nowe zadanie"
-               body={<Form />}
-            />
-
-            <Section
+               title1="Dodaj nowe zadanie"
+               body1={<Form />}
+            
                title="Lista zadań"
                body={
                   <Tasks tasks={tasks} hideDoneTasks={hideDoneTasks} />
