@@ -25,7 +25,6 @@
 .div__titleTasksList {
    display: flex;
    flex-direction: row;
-   padding: 1%;
    border-bottom: 2px solid #eee;
 }
 
