@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mod08_05_todos_list_react/static/css/main.c468b8d8.css",
-    "main.js": "/mod08_05_todos_list_react/static/js/main.effb2ccb.js",
+    "main.css": "/mod08_05_todos_list_react/static/css/main.e8c8af9d.css",
+    "main.js": "/mod08_05_todos_list_react/static/js/main.08fdb20c.js",
     "static/js/453.3dd2d477.chunk.js": "/mod08_05_todos_list_react/static/js/453.3dd2d477.chunk.js",
     "index.html": "/mod08_05_todos_list_react/index.html",
-    "main.c468b8d8.css.map": "/mod08_05_todos_list_react/static/css/main.c468b8d8.css.map",
-    "main.effb2ccb.js.map": "/mod08_05_todos_list_react/static/js/main.effb2ccb.js.map",
+    "main.e8c8af9d.css.map": "/mod08_05_todos_list_react/static/css/main.e8c8af9d.css.map",
+    "main.08fdb20c.js.map": "/mod08_05_todos_list_react/static/js/main.08fdb20c.js.map",
     "453.3dd2d477.chunk.js.map": "/mod08_05_todos_list_react/static/js/453.3dd2d477.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c468b8d8.css",
-    "static/js/main.effb2ccb.js"
+    "static/css/main.e8c8af9d.css",
+    "static/js/main.08fdb20c.js"
   ]
 }
