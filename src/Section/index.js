@@ -6,12 +6,12 @@ const Section = ({ title, title1, body, body1, extraHeaderContent }) => (
          <div>
             <h3 className="section__titleNewTask">{title1}</h3>
          </div>
-         <div> {/*  className="div__tasksList" */}
+         <div>
             {body1}
          </div>
       </section>
       <section className="section sectionTasks">
-         <div className="div__tasksList">
+         <div className="div__titleTasksList">
             <h3 className="section__titleTasksList">{title}</h3>
             {extraHeaderContent}
          </div>
